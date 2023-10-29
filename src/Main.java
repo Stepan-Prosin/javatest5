@@ -3,7 +3,7 @@ public class Main {
         BmiService service = new BmiService();
         double Growth = 1.87;
         double weight = 98;
-        int BMI = service.calculate(Growth,weight); // должно получиться 500
+        int BMI = service.calculate(Growth, weight); // должно получиться 500
         System.out.println(BMI);
     }
 }
